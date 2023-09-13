@@ -41,6 +41,13 @@ while True:
     value = adc.read_u16()
     print(value)
     duty_cycle = (value - min_bright) / (max_bright - min_bright)
+    
+     # %% clip duty cycle to range [0, 1]
+    if duty_cycle < 0:
+        duty_cycle = 0
+    elif duty_cycle > 1:
+        duty_cycle = 1
+        
     led.high()
     time.sleep(blink_period * duty_cycle)
     led.low()
