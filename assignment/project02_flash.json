@@ -1,13 +1,2 @@
-{
-    "num_flash": 3,
-    "sample_ms": 10.0,
-    "on_ms": 500,
-    "min_response_time_1": 0,
-    "max_response_time_1": 0,
-    "avg_response_time_1": 0,
-    "score_1": "",
-    "min_response_time_2": 0,
-    "max_response_time_2": 0,
-    "avg_response_time_2": 0,
-    "score_2": ""
-}
+{"score_1": " 9 / 10", "avg_response_time_1": 319.3333, "avg_response_time_2": 330.4, "on_ms": 500, "min_response_time_2": 252, "max_response_time_2": 430, "min_response_time_1": 252, "num_flash": 10, "max_response_time_1": 397, "sample_ms": 10.0, "score_2": " 10 / 10"}
+

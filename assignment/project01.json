@@ -1,5 +1,5 @@
 {
-    "num_flash": 5,
+    "num_flash": 10,
     "sample_ms": 10.0,
     "on_ms": 500,
     "min_response_time": 0,

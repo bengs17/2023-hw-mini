@@ -79,6 +79,7 @@ blinker(5)
 # %% collate results
 misses = t.count(None)
 print(f"You missed the light {misses} / {N} times")
+score = N - misses
 
 t_good = [x for x in t if x is not None]
 
@@ -96,7 +97,7 @@ else:
 params["min_response_time"] = min_time
 params["max_response_time"] = max_time
 params["avg_response_time"] = avg_time
-params["score"] = f"misses {misses} / {N} times"
+params["score"] = f"{score} / {N}"
 
 try:
     with open("project01.json", "w") as json_file:
